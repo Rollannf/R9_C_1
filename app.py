@@ -530,7 +530,7 @@ st.markdown(”””
 
 # ============== СТАТУС C_2 ==============
 
-dot_class, status_text = “idle”, “Статус не определён — нажмите «Пинг»”
+dot_class, status_text = “idle”, “Статус не определён - нажмите кнопку Пинг”
 if st.session_state.health_ok is True:
 dot_class, status_text = “ok”, f”C_2 онлайн · {C2_URL.split(’//’)[-1]}”
 elif st.session_state.health_ok is False:
